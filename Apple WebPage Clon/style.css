@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+
+    width: 100%;
+    font-size: 62.5%;
+}
+
+/* header section start  */
+header {
+
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background: white;
+}
+
+.nav-container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px 0;
+}
+
+.nav-container .logo img {
+
+    height: 20px;
+    padding-right: 8px;
+}
+
+.nav-container .nav-icon {
+
+    display: flex;
+    gap: 10px;
+    padding-left: 8px;
+}
+
+.nav-container .nav-icon img {
+
+    height: 20px;
+}
+
+.nav-container ul {
+
+    display: flex;
+    gap: 20px;
+}
+
+.nav-container ul li {
+
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+/* header section end  */
+
+
+/* details section start  */
+
+.details-container {
+
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 65px;
+    padding: 10px 0;
+
+}
+
+.details-container a {
+
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: blue;
+}
+
+/* details section end  */
+
+
+/* video section  start */
+
+.apple-video {
+
+    margin-top: 30px;
+}
+
+.apple-video video {
+
+    width: 100%;
+}
+
+/* video section end */
+
+
+/* servicsection start  */
+.product-container {
+
+    width: 100%;
+    background: whitesmoke;
+    margin-top: 35px;
+}
+
+.product-sub-container {
+
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.product-top {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+
+}
+
+.product-top .product-info h1 {
+
+    font-size: 3.6rem;
+    color: black;
+}
+
+.servic-agent .service-logo img {
+
+    height: 30px;
+    border-radius: 50%;
+}
+
+.servic-agent .servic-info p {
+
+    font-size: 1.4rem;
+    color: black;
+}
+
+.servic-agent .servic-info a {
+
+    text-decoration: underline;
+    color: blue;
+    font-size: 1.4rem;
+}
+
+.product-bottom {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+.product-bottom .product {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 0px;
+}
+
+.product-bottom .product img {
+
+    height: 90px;
+}
+
+.product-bottom .product a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+}
+
+/* servicsection end  */
+
+
+/* card section start  */
+
+.card-container {
+
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.card-container h1 {
+
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 45px 0;
+}
+
+.card-sub-container {
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+
+    width: 26%;
+    padding: 25px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.card:hover {
+
+
+    transform: scale(1.1);
+}
+
+.card:nth-child(3) {
+
+    background: black;
+    color: white;
+}
+
+.card:nth-child(3) h3 {
+
+    color: white;
+}
+
+.card h3 {
+
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.card h2 {
+
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.card p {
+
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card-sub-container .card img {
+
+
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* card section end  */
+
+
+/* apple event section start  */
+
+.apple-event {
+
+    width: 100%;
+    background: black;
+    padding: 25px 0;
+}
+
+.apple-event h1 {
+
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.apple-event-img {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.apple-event-img img {
+
+    width: 100%;
+    height: 400px;
+}
+
+/* apple event section end   */
+
+/* apple phone section start  */
+
+.apple-phon-14 {
+
+    width: 100%;
+    margin: 35px 0;
+}
+
+.apple-phon-12-container {
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.i14-pro-content h2 {
+
+    font-size: 3rem;
+}
+
+/* apple phone section end  */
+
+/* menu list setion start  */
+
+.apple-menu-list {
+
+    width: 100%;
+    margin-top: 35px;
+    background: whitesmoke;
+}
+
+.top-menu-list {
+
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.top-menu-list p {
+
+    font-size: 1.6rem;
+}
+
+.top-menu-list img {
+
+    height: 22px;
+}
+
+.menu-list {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-list ul {
+
+    margin: 20px 0;
+
+}
+
+.menu-list ul li {
+
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.apple-menu-list p {
+
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+    margin-left: 8px;
+}
+
+
+/* menu list setion end  */
+
+
+.menu-open {
+    display: none;
+}
+
+.cross {
+
+    display: none;
+}
+
+/* responsive design  */
+
+@media only screen and (max-width:600px) {
+    .nav-container ul {
+
+        display: none;
+    }
+
+    .nav-container {
+        width: 100%;
+        justify-content: space-around;
+        padding: 0 15px;
+    }
+
+    .nav-container ul {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 35px;
+        position: absolute;
+        background-color: white;
+        opacity: 0%;
+        transition: .5s;
+    }
+
+    .nav-container ul li {
+
+        padding-top: 3px;
+        padding-left: 10px;
+    }
+
+    .menu-open {
+
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    .cross {
+
+        display: block;
+        position: absolute;
+        right: 10%;
+        height: 25px;
+        cursor: pointer;
+
+    }
+
+    .details-container {
+        font-size: 1.3rem;
+    }
+
+    .details-container {
+        font-size: 1.3rem;
+    }
+
+    .product-top {
+        padding-top: 25px;
+        flex-direction: column;
+    }
+
+    .product-top .product-info h1 {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+
+    .product-bottom {
+        flex-wrap: wrap;
+      }
+
+
+    .card-container h1 {
+        font-size: 2rem;
+        margin: 30px 0;
+    }
+
+    .card-sub-container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card h3 {
+        font-size: 1.6rem;
+    }
+
+    .card h2 {
+        font-size: 2rem;
+    }
+    .card p {
+        font-size: 1.4rem;
+      }
+
+
+
+      .apple-event h1 {
+        font-size: 2rem;
+      }
+      .apple-event-img {
+        flex-direction: column;
+      }
+
+
+
+      .apple-phon-12-container {
+        flex-direction: column;
+      }
+      .i14-pro-content h2 {
+        font-size: 2.2rem;
+      }
+
+
+      .menu-list ul {
+        margin: 10px 0;
+        padding: 5px;
+      }
+      .menu-list ul li {
+        font-size: 1.2rem;
+      }
+}
